@@ -1,2 +1,2 @@
 #!/bin/bash
- gcc  $CFLAGS $CFILE -o c
+ gcc  $CFLAGS $CFILE -o main.o
