@@ -4,7 +4,7 @@
 
 /**
 *main - prints using putchar the alphabet in lower- and uppercase letters
-*Return: Always 0  
+*Return: Always 0
 */
 
 int main(void)

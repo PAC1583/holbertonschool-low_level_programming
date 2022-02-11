@@ -4,7 +4,7 @@
 
 /**
 *main - prints using printf function number from 0 -9 and no variables int type
-*Return: Always 0  
+*Return: Always 0
 */
 
 int main(void)

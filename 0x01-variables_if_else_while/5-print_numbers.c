@@ -3,7 +3,7 @@
 
 /**
 *main - prints number from 0-9
-*Return: Always 0  
+*Return: Always 0
 */
 
 int main(void)
