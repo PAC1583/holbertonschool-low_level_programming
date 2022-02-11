@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/* betty style doc for function main goes there */
+/**
+*main - prints using printf function number from 0 -9 and no variables int type
+*Return: Always 0  
+*/
+
 int main(void)
 {
 int i;

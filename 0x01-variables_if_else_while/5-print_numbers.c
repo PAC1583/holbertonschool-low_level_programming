@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* betty style doc for function main goes there */
+/**
+*main - prints number from 0-9
+*Return: Always 0  
+*/
+
 int main(void)
 {
 int i;

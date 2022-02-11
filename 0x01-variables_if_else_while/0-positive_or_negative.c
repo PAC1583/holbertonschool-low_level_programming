@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+*main - Returns if the number is positive, negative or zero
+*Return: Always 0  
+*/
+
 int main(void)
 {
 int n;

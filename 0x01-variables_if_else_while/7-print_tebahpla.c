@@ -2,7 +2,11 @@
 #include <stdlib.h>
 
 
-/* betty style doc for function main goes there */
+/**
+*main - prints using putchar the reverse alphabet in lowercase letters
+*Return: Always 0  
+*/
+
 int main(void)
 {
 int i = 25;

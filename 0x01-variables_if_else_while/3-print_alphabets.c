@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/* betty style doc for function main goes there */
+/**
+*main - prints using putchar the alphabet in lower- and uppercase letters
+*Return: Always 0  
+*/
+
 int main(void)
 {
 int i;

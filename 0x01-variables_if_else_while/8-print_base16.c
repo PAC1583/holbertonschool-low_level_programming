@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+*main - prints hexadecimal numbers 
+*Return: Always 0  
+*/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int i;
