@@ -15,7 +15,7 @@ char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 while (i > -1)
 {
 putchar(alpha[i]);
-i-=1;
+i -= 1;
 }
 putchar('\n');
 return (0);

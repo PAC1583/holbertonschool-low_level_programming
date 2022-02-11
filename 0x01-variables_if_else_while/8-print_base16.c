@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*main - prints hexadecimal numbers 
+*main - prints hexadecimal numbers
 *Return: Always 0
 */
 

@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
 /**
 *main - Prints a combination of numbers
 *Return: Always 0
 */
-
 int main(void)
 {
 int i;
-char alpha[26] = "0,1,2,3,4,5,6,7,8,9";
 
-for (i = 0; i < 19; i++)
+for (i = 48; i < 58; i++)
 {
-putchar(alpha[i]);
+putchar(i);
+if (i < 57)
+{
+putchar(',');
+}
 }
 putchar('\n');
 return (0);
