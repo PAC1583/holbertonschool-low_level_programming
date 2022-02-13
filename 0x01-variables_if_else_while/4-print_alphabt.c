@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
-*main - prints using putchar the alphabet in lowercase letters, except letters e and q
+*main - prints using putchar the alphabet in lowercase letters,
+*       except letters e and q
 *Return: Always 0
 */
 int main(void)
