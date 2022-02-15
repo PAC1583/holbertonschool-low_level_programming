@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "3-islower.h"
+#include "main.h"
 
 /**
  * _islower - determine is the char is lowercase or not
@@ -11,12 +11,12 @@
 
 int _islower(int c)
 {
-    if (c < 97 || c > 123)
-    {
-    return (0);
-    }
-    else
-    {
-    return (1);
-    }
+if (c < 97 || c > 123)
+{
+return (0);
+}
+else
+{
+return (1);
+}
 }
