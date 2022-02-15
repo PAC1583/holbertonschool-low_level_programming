@@ -1,6 +1,4 @@
-#include "9-times_table.h"
-#include "0-putchar.h"
-
+#include "main.h"
 
 
 /**
