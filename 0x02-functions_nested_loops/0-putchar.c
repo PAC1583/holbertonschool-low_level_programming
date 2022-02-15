@@ -5,13 +5,12 @@
 *Return: Always 0
 */
 
-#define SIZE 10
 
 int main(void)
 {
-int a[SIZE] = {95, 112, 117, 116, 99, 104, 97, 114};
+int a[8] = {95, 112, 117, 116, 99, 104, 97, 114};
 int i;
-for (i = 0; i < SIZE; i++)
+for (i = 0; i < 8; i++)
 {
 _putchar(a[i]);
 }
