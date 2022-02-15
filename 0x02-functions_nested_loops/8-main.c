@@ -1,6 +1,4 @@
-#include "8-24_hours.h"
-#include "0-putchar.h"
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code
