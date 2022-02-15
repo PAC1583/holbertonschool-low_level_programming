@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include "1-alphabet.h"
-#include "0-putchar.h"
+#include <unistd.h>
+#include "main.h"
+
 
 /**
  * print_alphabet - prints the alphabet to stdout
@@ -9,6 +9,8 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
+
 
 void print_alphabet(void)
 {
