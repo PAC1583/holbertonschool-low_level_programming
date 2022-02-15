@@ -41,7 +41,7 @@ return (lastD);
 /**
  * jack_bauer - rints every minute of the day of Jack Bauer,
  * starting from 00:00 to 23:59
- * @n: n integer
+ * @: none
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
