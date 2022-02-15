@@ -20,7 +20,7 @@ for (i = n; i < end + 1; i++)
 printf("%d", i);
 if (i != end)
 {
-    printf(", ");
+printf(", ");
 }
 }
 }
