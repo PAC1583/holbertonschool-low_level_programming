@@ -5,5 +5,5 @@
 *Return: Always 0
 */
 
+int _isalpha(int c);
 
-int _putchar(char c);
