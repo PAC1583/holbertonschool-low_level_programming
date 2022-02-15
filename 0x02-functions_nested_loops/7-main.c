@@ -1,5 +1,4 @@
-#include "7-print_last_digit.h"
-#include "0-putchar.h"
+#include "main.h"
 
 /**
  * main - check the code
