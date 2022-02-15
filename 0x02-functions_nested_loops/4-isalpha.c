@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "4-isalpha.h"
+#include "main.h"
 
 /**
  * print_alphabet - determine is the char is letter or not

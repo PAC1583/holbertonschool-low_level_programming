@@ -1,5 +1,4 @@
-#include "4-isalpha.h"
-#include "0-putchar.h"
+#include "main.h"
 
 /**
  * main - check the code.
