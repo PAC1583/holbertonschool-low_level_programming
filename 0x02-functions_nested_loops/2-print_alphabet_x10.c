@@ -1,10 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 
-
 /**
  * print_alphabet - prints the alphabet to stdout
  * @: no variables
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+
+
+/**
  * print_alphabet_x10 - prints the  10x alphabet to stdout
  * @: no variables
  * Return: On success 1.
