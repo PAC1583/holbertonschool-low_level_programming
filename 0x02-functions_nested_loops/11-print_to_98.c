@@ -15,7 +15,7 @@ int end = 98;
 int i;
 if (n < end)
 {
-for (i = n; i < end+1; i++)
+for (i = n; i < end + 1; i++)
 {
 printf("%d", i);
 if (i != end)
@@ -27,14 +27,14 @@ if (i != end)
 else if (n > end)
 {
 i = n;
-while(i != end-1)
+while (i != end - 1)
 {
 printf("%d", i);
 if (i != end)
 {
-    printf(", ");
+printf(", ");
 }
-i-=1;
+i -= 1;
 }
 }
 else if (n == end)
