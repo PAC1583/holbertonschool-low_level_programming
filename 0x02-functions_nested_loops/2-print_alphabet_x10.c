@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "2-print_alphabet_x10.h"
-#include "0-putchar.h"
+#include "main.h"
 
 /**
  * print_alphabet - prints the  10x alphabet to stdout
@@ -10,15 +9,22 @@
  * On error, -1 is returned, and errno is set appropriately.
 */
 
+void print_alphabet(void)
+{
+int i;
+for (i = 97; i < 123; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+}
+
+
 void print_alphabet_x10(void)
 {
-int i, j;
+int i;
 for (i = 0; i < 10; i++)
 {
-    for (j = 97; j < 123; j++)
-    {
-    _putchar(j);
-    }
-    _putchar('\n');
+   print_alphabet();
 }
 }
