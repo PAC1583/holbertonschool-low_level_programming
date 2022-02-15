@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "6-abs.h"
-#include "0-putchar.h"
+#include "main.h"
 
 /**
  * _abs - return absolute value of a num
@@ -12,13 +11,13 @@
 
 int _abs(int n)
 {
-    if (n < 0)
-    {
-    n *= -1;
-    return (n);
-    }
-    else
-    {
-    return (n);
-    }
+if (n < 0)
+{
+n *= -1;
+return (n);
+}
+else
+{
+return (n);
+}
 }
