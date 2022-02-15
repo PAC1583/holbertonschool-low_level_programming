@@ -54,7 +54,10 @@ for (j = 0; j < 10; j++)
 n = i * j;
 if (n < 10)
 {
+if(j !=0)
+{
 _putchar(32);
+}
 _putchar('0' + n);
 }
 else
