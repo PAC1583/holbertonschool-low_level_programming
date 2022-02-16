@@ -113,6 +113,13 @@ void times_table2(int size)
 	}
 }
 
+/**
+ * print_times_table - return times table
+ * @n: number of the time table, int
+ *
+ * Return: print times table 0-9.
+*/
+
 void print_times_table(int n)
 {
 	if (n > 15 || n < 0)
