@@ -12,25 +12,30 @@
 
 void fibonacci(void)
 {
-	int i, n = 0; 
-    int prev1  = 1;
-    int prev2  = 2;
+	int i =  0;
+	long n = 0;
+	long prev1  = 1;
+	long prev2  = 2;
 
 	for (i = 0; i < 48 + 1; i++)
 	{
-        if (i == 0)
-        {
-            printf("%d, %d\n", prev1, prev2);
-        }
-        else 
-        {
-            n = prev1 + prev2;
-            printf("%d, ", n);
-            prev1 = prev2;
-            prev2 = n;
-        }
+		if (i == 0)
+		{
+			printf("%lu, %lu, ", prev1, prev2);
+		}
+		else
+		{
+			n = prev1 + prev2;
+			printf("%lu", n);
+			prev1 = prev2;
+			prev2 = n;
+			if (i < 48)
+			{
+				printf(", ");
+			}
+		}
 	}
-    printf("\n");
+	printf("\n");
 }
 
 /**
