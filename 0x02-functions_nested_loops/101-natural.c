@@ -11,7 +11,7 @@ void naturals(void)
 	int i = 0;
 	int sumM =  0;
 
-	while (sumM < 1024)
+	while (i < 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
