@@ -21,7 +21,7 @@ void fibonacciSum(void)
 
 		if (i == 0)
 		{
-			even+=prev2;
+			even += prev2;
 		}
 		n = prev1 + prev2;
 		prev1 = prev2;
@@ -32,7 +32,7 @@ void fibonacciSum(void)
 			{
 				break;
 			}
-			even += prev2;         
+			even += prev2;     
 		}
 	}
 	printf("%ld\n", even);
