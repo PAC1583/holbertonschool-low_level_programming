@@ -76,7 +76,6 @@ void times_table2(int size)
 				if (j == 0)
 				{
 					_putchar(48);
-					print_char(44, 1);
 				}
 				else
 				{
