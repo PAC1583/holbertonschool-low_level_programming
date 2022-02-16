@@ -32,7 +32,7 @@ void fibonacciSum(void)
 			{
 				break;
 			}
-			even += prev2;     
+			even += prev2;
 		}
 	}
 	printf("%ld\n", even);
