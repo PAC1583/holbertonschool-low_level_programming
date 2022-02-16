@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 
@@ -19,28 +18,24 @@ void fibonacciSum(void)
 
 	for (i = 0; i < 48 + 1; i++)
 	{
-        
+
 		if (i == 0)
 		{
             even+=prev2;
-            printf("%ld\n", even);
 		}
         n = prev1 + prev2;
         prev1 = prev2;
 		prev2 = n;
         if (prev2 % 2 == 0)
         {
-            even += prev2;
             if (n > 4000001)
             {
                 break;
             }
-            else
-            {
-                printf("%ld\n", even);
-            }
+            even += prev2;         
         }
 	}
+    printf("%ld\n", even);
 }
 
 /**
