@@ -21,21 +21,21 @@ void fibonacciSum(void)
 
 		if (i == 0)
 		{
-            even+=prev2;
+			even+=prev2;
 		}
-        n = prev1 + prev2;
-        prev1 = prev2;
+		n = prev1 + prev2;
+		prev1 = prev2;
 		prev2 = n;
-        if (prev2 % 2 == 0)
-        {
-            if (n > 4000001)
-            {
-                break;
-            }
-            even += prev2;         
-        }
+		if (prev2 % 2 == 0)
+		{
+			if (n > 4000001)
+			{
+				break;
+			}
+			even += prev2;         
+		}
 	}
-    printf("%ld\n", even);
+	printf("%ld\n", even);
 }
 
 /**
