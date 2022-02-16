@@ -19,5 +19,6 @@ void print_to_98(int n);
 void print_times_table(int n);
 void times_table2(int size);
 void print_char (int m, int n);
+void print_num(int n);
 
 

@@ -1,25 +1,5 @@
 #include "main.h"
-
-/**
- * _abs - return absolute value of a num
- * @n: n integer
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
-*/
-
-int _abs(int n)
-{
-	if (n < 0)
-	{
-		n *= -1;
-		return (n);
-	}
-	else
-	{
-		return (n);
-	}
-}
+#include <stdio.h>
 
 /**
  * print_last_digit - return last digit a num
@@ -32,15 +12,44 @@ int print_last_digit(int n)
 {
 	int lastD;
 
-	lastD = _abs(n % 10);
+	lastD = (n % 10);
 	_putchar(lastD + '0');
 	return (lastD);
 }
 
 /**
- * print_char - print n times a char
+ * print_num - prints a number
  * @n: n integer
  *
+ * Return: last digit of a num.
+*/
+
+void print_num(int n)
+{
+	int m;
+
+	if (n < 10)
+	{
+		_putchar(n + '0');
+	}
+	else if (n < 100)
+	{
+		m = n / 10;
+		_putchar(m + '0');
+		print_last_digit(n);
+	}
+	else
+	{
+		_putchar(1 + '0');
+		m = n / 10;
+		print_last_digit(m);
+		print_last_digit(n);
+	}
+}
+/**
+ * print_char - print n times a char
+ * @n: n integer
+ * @m: m integer
  * Return: None.
 */
 
@@ -55,7 +64,7 @@ void print_char(int m, int n)
 }
 
 /**
- * times_table - return times table
+ * times_table2 - return times table
  * @size: size of the time table, int
  *
  * Return: print times table 0-9.
@@ -63,12 +72,11 @@ void print_char(int m, int n)
 
 void times_table2(int size)
 {
-	int n, m = 0;
-	int i, j;
+	int n, i, j = 0;
 
-	for (i = 0; i < size+1; i++)
+	for (i = 0; i < size + 1; i++)
 	{
-		for (j = 0; j < size+1; j++)
+		for (j = 0; j < size + 1; j++)
 		{
 			n = i * j;
 			if (n < 10)
@@ -80,27 +88,20 @@ void times_table2(int size)
 				else
 				{
 					print_char(32, 3);
-					_putchar(n + '0');
+					print_num(n);
 				}
-				
 			}
-			else if (n > 9 )
+			else if (n > 9)
 			{
 				if (n < 100)
 				{
 					print_char(32, 2);
-					m = n / 10;
-					_putchar(m + '0');
-					print_last_digit(n);
+					print_num(n);
 				}
 				else
 				{
 					print_char(32, 1);
-					_putchar(1 + '0');
-					m = n / 10;
-					print_last_digit(m);
-					print_last_digit(n);
-					
+					print_num(n);
 				}
 			}
 			if (j < size)
@@ -117,7 +118,7 @@ void print_times_table(int n)
 	if (n > 15 || n < 0)
 	{
 	}
-	else 
+	else
 	{
 		times_table2(n);
 	}
