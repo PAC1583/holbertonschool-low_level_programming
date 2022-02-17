@@ -2,6 +2,7 @@
 
 /**
  * main - check the code.
+ * @ : no args
  *
  * Return: Always 0.
  */
