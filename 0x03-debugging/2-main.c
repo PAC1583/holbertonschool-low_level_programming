@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +12,7 @@ int main(void)
 
 	a = 972;
 	b = -98;
-	c = 0;
+	c = 1000;
 
 	largest = largest_number(a, b, c);
 
