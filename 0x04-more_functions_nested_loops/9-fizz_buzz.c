@@ -7,6 +7,7 @@
  * @: none
  * Return: none
  */
+
 void Fizz_Buzz(void)
 {
 	int i;
@@ -18,28 +19,28 @@ void Fizz_Buzz(void)
 			if (i % 5 == 0)
 			{
 				printf("FizzBuzz");
-				printf("%c", 32);
 			}
 			else
 			{
 				printf("Fizz");
-				printf("%c", 32);
 			}
 		}
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
-			printf("%c", 32);
 		}
 		else
 		{
 			printf("%d", i);
+		}
+
+		if (i < 101)
+		{
 			printf("%c", 32);
 		}
 	}
 	printf("\n");
 }
-
 
 /**
  * main - check the code.
