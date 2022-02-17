@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _isupper - return if the int is upper or not
+ * _isdigit - return if c is a digit or not
  * @c: c integer
- * Return: 1 if is upper or 0 if not
+ * Return: 1 if is digit or 0 if not
  */
 
 int _isdigit(int c)
