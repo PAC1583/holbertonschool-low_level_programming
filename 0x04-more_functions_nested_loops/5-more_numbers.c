@@ -9,19 +9,28 @@
 void more_numbers(void)
 {
 	int i, j;
+	int k = 0;
+	int num[10]={ 48, 49, 50, 51, 52, 53, 54, 55, 56, 57};
 
-	for (i = 0; i < 15; i++)
+	for (i = 0; i < 10; i++)
 	{
-
-		for (j = 48; j < 58; j++)
+		for (j = 0; j < 15; j++)
 		{
-			_putchar(j);
+			_putchar(num[k]);
+			k += 1;
+			if (j > 8)
+				{	
+					if (j == 9)
+					{
+						k = 0;
+					}
+					if (j != 14)
+					{
+						_putchar(num[1]);
+					}
+				}
 		}
-		for (j = 48; j < 53; j++)
-		{
-			_putchar(49);
-			_putchar(j);
-		}
+		k = 0;
 		_putchar('\n');
 	}
 }
