@@ -31,13 +31,12 @@ int main(void)
 		else
 		{
 			printf("%d", i);
-			
 		}
-        if (i < 100)
-        {
-            printf("%c", 32);
-        }
+		if (i < 100)
+		{
+			printf("%c", 32);
+		}
 	}
 	printf("\n");
-    return (0);
+	return (0);
 }
