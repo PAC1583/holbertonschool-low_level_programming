@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+
+
 /**
  * fibonacci - print the first 98 fibonacci numbers
  * @: none
@@ -10,10 +12,11 @@
 
 void fibonacci(void)
 {
-	int i =  0;
-	long n = 0;
-	long prev1  = 1;
-	long prev2  = 2;
+	int i;
+    long n =0;
+	long prev1 = 1;
+    long prev2 = 2;
+    long size = 9223372036854775806;
 
 	for (i = 0; i < 98 + 1; i++)
 	{
@@ -21,16 +24,14 @@ void fibonacci(void)
 		{
 			printf("%lu, %lu, ", prev1, prev2);
 		}
-		else
+        if ((prev1  < prev1 + prev2
+        n = prev1 + prev2;
+		printf("%lu", n);
+		prev1 = prev2;
+		prev2 = n;
+		if (i < 98)
 		{
-			n = prev1 + prev2;
-			printf("%lu", n);
-			prev1 = prev2;
-			prev2 = n;
-			if (i < 98)
-			{
-				printf(", ");
-			}
+			printf(", ");
 		}
 	}
 	printf("\n");

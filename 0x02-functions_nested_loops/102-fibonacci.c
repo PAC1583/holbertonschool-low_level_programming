@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
-
 /**
  * fibonacci - print fibonacci numbers
  * @: none
@@ -36,16 +34,4 @@ void fibonacci(void)
 		}
 	}
 	printf("\n");
-}
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-
-int main(void)
-{
-	fibonacci();
-	return (0);
 }

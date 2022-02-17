@@ -37,15 +37,3 @@ void fibonacciSum(void)
 	}
 	printf("%ld\n", even);
 }
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-
-int main(void)
-{
-	fibonacciSum();
-	return (0);
-}

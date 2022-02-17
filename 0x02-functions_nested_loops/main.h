@@ -20,5 +20,8 @@ void print_times_table(int n);
 void times_table2(int size);
 void print_char (int m, int n);
 void print_num(int n);
+void naturals(void);
+void fibonacci(void);
+void fibonacciSum(void);
 
 
