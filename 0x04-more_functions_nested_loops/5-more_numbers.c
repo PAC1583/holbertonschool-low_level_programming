@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +6,7 @@
  * Return: none
  */
 
-void more_numbers(void)
+void print_numbers(void)
 {
 	int i;
 
