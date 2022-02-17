@@ -13,7 +13,7 @@ int main(void)
 
 		i = 0;
 
-		while (i < 0) /* i is not incrementing. infinite loop*/
+		while (i < 0)
 		{
 			putchar(i);
 		}
