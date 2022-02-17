@@ -9,12 +9,12 @@
 
 void print_numbers(void)
 {
-    int i;
+	int i;
 
-    for (i = 48; i < 58; i++)
-    {
-        _putchar(i);
-    };
+	for (i = 48; i < 58; i++)
+	{
+		_putchar(i);
+	};
 }
 
 
@@ -27,16 +27,16 @@ void print_numbers(void)
 
 void more_numbers(void)
 {
-    int i, j;
+	int i, j;
 
-    for (i = 0; i < 10; i++)
-    {
-        print_numbers();
-        for(j = 48; j < 53; j++)
-        {
-            _putchar(49);
-            _putchar(j);
-        }
-        _putchar('\n');
-    }
+	for (i = 0; i < 10; i++)
+	{
+		print_numbers();
+		for (j = 48; j < 53; j++)
+		{
+			_putchar(49);
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
 }
