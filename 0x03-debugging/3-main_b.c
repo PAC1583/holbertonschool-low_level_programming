@@ -12,6 +12,7 @@ int main(void)
 	int month;
 	int day;
 	int year;
+	int i;
 
 	month = 2;
 	day = 29;
@@ -22,6 +23,12 @@ int main(void)
 	day = convert_day(month, day);
 
 	print_remaining_days(month, day, year);
+
+	for (i=2016; i<2096; i++)
+	{
+		printf("%d ", i);
+		print_remaining_days(02, 29, i);
+	}
 
 	return (0);
 }

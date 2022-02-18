@@ -1,44 +1,142 @@
-#include <stdio.h>
-#include "main.h"
-
-/**
-* print_remaining_days - takes a date and prints how many days are
-* left in the year, taking leap years into account
-* @month: month in number format
-* @day: day of month
-* @year: year
-* Return: void
-*/
-
-void print_remaining_days(int month, int day, int year)
-{
-    if (year % 4 == 0) 
-    {
-		if (!(year % 100 == 0) || (year % 400 == 0))
-		{
-			if (month >= 2 && day >= 60)
-			{
-				day++;
-			}
-
-			printf("Day of the year: %d\n", day);
-			printf("Remaining days: %d\n", 366 - day);
-		}
-		else
-		{
-		
-		}
-    }
-    else
-    {
-        if (month == 2 && day == 60)
-        {
-            printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
-        }
-        else
-        {
-            printf("Day of the year: %d\n", day);
-            printf("Remaining days: %d\n", 365 - day);
-        }
-    }
-}
+Date: 02/29/2000
+Day of the year: 61  Remaining days: 305  leap
+2016 Day of the year: 29  Remaining days: 337  leap
+2017 Day of the year: 29
+Remaining days: 336
+2018 Day of the year: 29
+Remaining days: 336
+2019 Day of the year: 29
+Remaining days: 336
+2020 Day of the year: 29  Remaining days: 337  leap
+2021 Day of the year: 29
+Remaining days: 336
+2022 Day of the year: 29
+Remaining days: 336
+2023 Day of the year: 29
+Remaining days: 336
+2024 Day of the year: 29  Remaining days: 337  leap
+2025 Day of the year: 29
+Remaining days: 336
+2026 Day of the year: 29
+Remaining days: 336
+2027 Day of the year: 29
+Remaining days: 336
+2028 Day of the year: 29  Remaining days: 337  leap
+2029 Day of the year: 29
+Remaining days: 336
+2030 Day of the year: 29
+Remaining days: 336
+2031 Day of the year: 29
+Remaining days: 336
+2032 Day of the year: 29  Remaining days: 337  leap
+2033 Day of the year: 29
+Remaining days: 336
+2034 Day of the year: 29
+Remaining days: 336
+2035 Day of the year: 29
+Remaining days: 336
+2036 Day of the year: 29  Remaining days: 337  leap
+2037 Day of the year: 29
+Remaining days: 336
+2038 Day of the year: 29
+Remaining days: 336
+2039 Day of the year: 29
+Remaining days: 336
+2040 Day of the year: 29  Remaining days: 337  leap
+2041 Day of the year: 29
+Remaining days: 336
+2042 Day of the year: 29
+Remaining days: 336
+2043 Day of the year: 29
+Remaining days: 336
+2044 Day of the year: 29  Remaining days: 337  leap
+2045 Day of the year: 29
+Remaining days: 336
+2046 Day of the year: 29
+Remaining days: 336
+2047 Day of the year: 29
+Remaining days: 336
+2048 Day of the year: 29  Remaining days: 337  leap
+2049 Day of the year: 29
+Remaining days: 336
+2050 Day of the year: 29
+Remaining days: 336
+2051 Day of the year: 29
+Remaining days: 336
+2052 Day of the year: 29  Remaining days: 337  leap
+2053 Day of the year: 29
+Remaining days: 336
+2054 Day of the year: 29
+Remaining days: 336
+2055 Day of the year: 29
+Remaining days: 336
+2056 Day of the year: 29  Remaining days: 337  leap
+2057 Day of the year: 29
+Remaining days: 336
+2058 Day of the year: 29
+Remaining days: 336
+2059 Day of the year: 29
+Remaining days: 336
+2060 Day of the year: 29  Remaining days: 337  leap
+2061 Day of the year: 29
+Remaining days: 336
+2062 Day of the year: 29
+Remaining days: 336
+2063 Day of the year: 29
+Remaining days: 336
+2064 Day of the year: 29  Remaining days: 337  leap
+2065 Day of the year: 29
+Remaining days: 336
+2066 Day of the year: 29
+Remaining days: 336
+2067 Day of the year: 29
+Remaining days: 336
+2068 Day of the year: 29  Remaining days: 337  leap
+2069 Day of the year: 29
+Remaining days: 336
+2070 Day of the year: 29
+Remaining days: 336
+2071 Day of the year: 29
+Remaining days: 336
+2072 Day of the year: 29  Remaining days: 337  leap
+2073 Day of the year: 29
+Remaining days: 336
+2074 Day of the year: 29
+Remaining days: 336
+2075 Day of the year: 29
+Remaining days: 336
+2076 Day of the year: 29  Remaining days: 337  leap
+2077 Day of the year: 29
+Remaining days: 336
+2078 Day of the year: 29
+Remaining days: 336
+2079 Day of the year: 29
+Remaining days: 336
+2080 Day of the year: 29  Remaining days: 337  leap
+2081 Day of the year: 29
+Remaining days: 336
+2082 Day of the year: 29
+Remaining days: 336
+2083 Day of the year: 29
+Remaining days: 336
+2084 Day of the year: 29  Remaining days: 337  leap
+2085 Day of the year: 29
+Remaining days: 336
+2086 Day of the year: 29
+Remaining days: 336
+2087 Day of the year: 29
+Remaining days: 336
+2088 Day of the year: 29  Remaining days: 337  leap
+2089 Day of the year: 29
+Remaining days: 336
+2090 Day of the year: 29
+Remaining days: 336
+2091 Day of the year: 29
+Remaining days: 336
+2092 Day of the year: 29  Remaining days: 337  leap
+2093 Day of the year: 29
+Remaining days: 336
+2094 Day of the year: 29
+Remaining days: 336
+2095 Day of the year: 29
+Remaining days: 336
