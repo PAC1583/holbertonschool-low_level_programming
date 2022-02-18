@@ -9,26 +9,20 @@
 
 int main(void)
 {
-	int month;
-	int day;
-	int year;
-	int i;
+    int month;
+    int day;
+    int year;
 
-	month = 2;
-	day = 29;
-	year = 2000;
+    month = 4;
+    day = 01;
+    year = 1997;
 
-	printf("Date: %02d/%02d/%04d\n", month, day, year);
+    printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-	day = convert_day(month, day);
+    day = convert_day(month, day);
 
-	print_remaining_days(month, day, year);
+    print_remaining_days(month, day, year);
 
-	for (i=2016; i<2096; i++)
-	{
-		printf("%d ", i);
-		print_remaining_days(02, 29, i);
-	}
-
-	return (0);
+    return (0);
 }
+
