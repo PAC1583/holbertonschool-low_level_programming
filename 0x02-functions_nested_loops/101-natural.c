@@ -6,7 +6,7 @@
  * Return: none
 */
 
-void naturals(void)
+int main(void)
 {
 	int i = 0;
 	int sumM =  0;
@@ -20,4 +20,5 @@ void naturals(void)
 		i++;
 	}
 	printf("%d\n", sumM);
+    return (0);
 }
