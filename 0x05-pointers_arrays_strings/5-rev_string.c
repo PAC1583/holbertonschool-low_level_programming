@@ -34,16 +34,15 @@ void rev_string(char *s)
 	int len = _strlen(s);
 	char temp[500];
 
-	
-	for (i = 0; i < len+1; i++)
+	for (i = 0; i < len + 1; i++)
 	{
 		temp[i] = s[i];
 	}
 
-    j = len - 1;
-	for (i = 0; i < len+1; i++)
+	j = len - 1;
+	for (i = 0; i < len + 1; i++)
 	{
 		s[i] = temp[j];
-        j-=1;
+		j -= 1;
 	}
 }
