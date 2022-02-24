@@ -9,19 +9,22 @@
  */
 char *cap_string(char *s)
 {
-    int i, n;
+    int i, n, m;
 
-    while (s[i] != '\0')
+    while ((s[i] != '\0'))
     {
-        if (s[i] == 32)
+        m = s[i];
+        if ((m == 32) || (s[i] == '\n') || (s[i] == '\t') || (m == 46) || (m == 40) || (m == 123) || (m == 44))
         {
             if (s[i + 1] > 96)
             {
                 n = s[i + 1] - 97;
                 s[i + 1] = 65 + n;
+                printf("%c", s[i]);
             }
         }
         i++;
     }
+
     return (s);
 }
