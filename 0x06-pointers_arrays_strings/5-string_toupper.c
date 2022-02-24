@@ -9,9 +9,10 @@
  */
 char *string_toupper(char *s)
 {
-    int len, i, n;
+    int i, n;
 
-    for (i = 0; s[i] != "\0"; i++)
+    i = 0;
+    while (s[i] != '\0')
     {
         if ((s[i] > 96))
         {
@@ -21,6 +22,7 @@ char *string_toupper(char *s)
                 s[i] = 65 + n;
             }
         }
+        i++;
     }
     return (s);
 }
