@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    char str[] = "Look up!\n";
+    char str[] = "Hello world sos SOS SOS sps message in the bottle M!?!?!?!?!?\n";
     char *ptr;
 
     ptr = string_toupper(str);
