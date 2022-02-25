@@ -18,7 +18,7 @@ char *cap_string(char *s)
 		m = s[i];
 		for (j = 0; j < 10; j++)
 		{
-			if (m == signs[j] || (s[i] == '\n') || (s[i] == '\t') || s[i] == '\"' || (i == 0))
+			if (m == signs[j] || (s[i] == '\n') || (s[i] == '\t') || (i == 0))
 			{
 				l = (i != 0) ? 1 : 0;
 
