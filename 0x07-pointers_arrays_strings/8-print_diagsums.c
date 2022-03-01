@@ -11,26 +11,26 @@
  */
 void print_diagsums(int *a, int size)
 {
-    int i, j, sum, sum2;
-    int **p;
+	int i, j, sum, sum2;
+	int **p;
 
-    sum = 0;
-    sum2 = 0;
-    p = &a;
+	sum = 0;
+	sum2 = 0;
+	p = &a;
 
-    for (i = 0; i < size; i++)
-    {
-        for (j = 0; j < size; i++)
-        {
-            if (j == i)
-            {
-                sum += p[i][j];
-            }
-            if (j == size - i)
-            {
-                sum2 += p[i][j];
-            }
-        }
-    }
-    printf("%d, %d", sum, sum2);
+	for (i = 0; i < size; i++)
+	{
+		for (j = 0; j < size; i++)
+		{
+			if (j == i)
+			{
+				sum += p[i][j];
+			}
+			if (j == size - i)
+			{
+				sum2 += p[i][j];
+			}
+		}
+	}
+	printf("%d, %d", sum, sum2);
 }
