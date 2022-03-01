@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-    char *s = "lola, world";
-    char *f = "ola";
-    unsigned int n;
+	char *s = "lola, world";
+	char *f = "olal";
+	unsigned int n;
 
-    n = _strspn(s, f);
-    printf("%u\n", n);
-    return (0);
+	n = _strspn(s, f);
+	printf("%u\n", n);
+	return (0);
 }
